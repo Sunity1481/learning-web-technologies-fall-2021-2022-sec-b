@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Email</title>
+	
+</head>
+<body>
+	<fieldset>
+		<legend>Email</legend>
+		<h1 id="head">Type Your Valied Email</h1>
+	Email<br><input id="email" type="email" name="email">
+	<input type="button" name="button" value="Submit" onclick="getEmail()">
+
+	<div id="x1">
+		
+	</div>
+	</fieldset>
+	
+
+	<script type="email/javascript" src="email.js"></script>
+	<script type="text/javascript">
+		function getEmail(){
+	var email = document.getElementById('email').value;
+	//alert(email);
+	document.getElementById('x1').innerHTML = email;
+}
+	</script>/*//
+</body>
+</html>
